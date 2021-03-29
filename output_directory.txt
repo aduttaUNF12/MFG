@@ -1,0 +1,99 @@
+data\
+	_outputs\
+		Large.Tests.{test_number}\
+			single_variable\
+				{parameter_type}.{parameter_variable}\
+					{parameter_variable.value}\
+						scenario.{scenario_number}.{current_time}\
+							
+                            pickle.pkl
+                            settings.txt
+
+                            bar_plots\
+								{starting_method_1}\
+									{measurement_1}\
+										averages\
+											Bar_plotv1.png
+											.
+											.
+											.
+											Bar_plotv{how every many Tuffa wants}.png
+										totals\
+											"^"
+									.
+									.
+									.
+									{measurement_measurement_count}\
+										"^"
+								.
+								.
+								.
+								{starting_method_.starting_method_count}\
+                                    "^"
+									
+							agent_networks\
+								testing\
+									agent_network1.pytorch
+                                    .
+                                    .
+                                    .
+                                    agent_network{agent_count}.pytorch
+
+								training\
+                                    measurement_extrema_1\
+                                        agent_network1.pytorch
+                                        .
+                                        .
+                                        .
+                                        agent_network{agent_count}.pytorch
+                                    .
+                                    .
+                                    .
+                                    measurement_extrema_{measurement_count}\
+                                        "^"
+									
+							line_plots\	
+								averages\
+									Scatter_plot1.png
+									Scatter_plot2.png
+									.
+									.
+									.
+									Scatter_plot{metric_count}.png
+								average_with_bars\
+									"^"
+								totals\
+									"^"
+                            
+                            videos\
+                                testing\
+                                    {starting_method_1}\
+                                        {navigation_method_1}\
+                                            video.avi
+                                            coverage.png
+                                        .
+                                        .
+                                        .
+                                        {navigation_method_.navigation_method_count}\
+                                            "^"
+                                    .
+                                    .
+                                    .
+                                    {starting_method.starting_method_count}\
+                                        "^"
+
+                                training\
+                                    {measurement_extrema_1}\
+                                        video.avi
+                                        coverage.png
+                                    .
+                                    .
+                                    .
+                                    measurement_extrema_{measurement_count}\
+                                        "^"
+                                        
+            mixed_variable\
+                scenario.{scenario_number}.{current_time}\
+                    "copy the scenario junk from above"
+						
+					
